@@ -35,9 +35,6 @@ const UserSchema = new Schema({
     required: true,
     enum: ["serious", "casual","serious80", "casual80", "neighborhood", "NotSureYet"]
   },
-관심사
-5개만 [배열]
-enum[30개]
   photos: [
     {
       filename: {
