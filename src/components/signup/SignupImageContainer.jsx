@@ -1,6 +1,6 @@
 import React, { useState, useRef } from "react";
-import { Logo } from "./SignupImage.style";
-import { ButtonStyle, Container } from "./SignupImage.style";
+import { Logo } from "./SignupImageStyle";
+import { ButtonStyle, Container } from "./SignupImageStyle";
 
 import LogoImg from "../../img/logo.png";
 export function SignupImage() {

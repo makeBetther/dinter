@@ -1,13 +1,7 @@
 import { Empty } from "antd";
 import { useState } from "react";
 import LogoImg from "../../img/logo.png";
-import {
-  ButtonStyle,
-  Container,
-  Error,
-  InputStyle,
-  Logo,
-} from "./Signup.style";
+import { ButtonStyle, Container, Error, InputStyle, Logo } from "./SignupStyle";
 
 export function Signup() {
   const [email, setEmail] = useState("");

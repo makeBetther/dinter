@@ -1,4 +1,4 @@
-import { ButtonStyle, Container, InputStyle, Logo } from "./Login.style";
+import { ButtonStyle, Container, InputStyle, Logo } from "./LoginStyle";
 
 import LogoImg from "../../img/logo.png";
 export function Login() {
