@@ -4,7 +4,6 @@ import Relationship, { relationshipArr } from "./relationshipArrAndButton"
 import languagesArr from "./array/languagesArr"
 import ArrayToButton from "./arrToButton";
 
-
 function Profile() {
 
   function Introduction() {
