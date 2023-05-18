@@ -1,25 +1,27 @@
 import { ButtonStyle, Container, InputStyle, Logo } from "./LoginStyle";
-
 import LogoImg from "../../img/logo.png";
-export function Login() {
+import { Link } from "react-router-dom";
+
+export function Login({ getUserLogin }) {
   const onClickLogin = () => {
-    alert("로그인창으로이동");
+    getUserLogin(true);
   };
 
-  const onClickSignUp = () => {
-    alert("회원가입창이동");
-  };
+  const onClickSignUp = () => {};
   return (
-    <Container>
-      <Logo src={LogoImg} />
-      <InputStyle placeholder="Email" />
-      <InputStyle placeholder="Password" />
-      <ButtonStyle onClick={onClickLogin} type="primary">
-        Login
-      </ButtonStyle>
-      <ButtonStyle onClick={onClickSignUp} type="primary">
-        Sign Up
-      </ButtonStyle>
-    </Container>
+    <>
+      <Container>
+        <Logo src={LogoImg} />
+        <InputStyle placeholder="Email" />
+        <InputStyle placeholder="Password" />
+        <ButtonStyle onClick={onClickLogin} type="primary">
+          <Link to="/card">Login</Link>
+        </ButtonStyle>
+
+        <ButtonStyle onClick={onClickSignUp} type="primary">
+          <Link to="/signup">Signup</Link>
+        </ButtonStyle>
+      </Container>
+    </>
   );
 }
