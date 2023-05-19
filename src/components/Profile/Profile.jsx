@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import interestsArr from "./array/interestsArr";
-import Relationship, { relationshipArr } from "./relationshipArrAndButton"
+import Relationship, { relationshipArr } from "./function/relationshipArrAndButton"
 import languagesArr from "./array/languagesArr"
-import ArrayToButton from "./arrToButton";
-
+import ArrayToButton from "./function/arrToButton";
+import AddORDeleteImage from "./AddORDeleteImage";
 
 function Profile() {
 
@@ -24,10 +24,13 @@ function Profile() {
   }
 
   return (
-    <div>
+    <>
       <div>
         <h2>프로필 수정</h2>
         <button type="submit">완료</button>
+      </div>
+      <div>사진 9개
+        <AddORDeleteImage />
       </div>
       <div>
         <h4>콘텐츠</h4>
@@ -74,8 +77,8 @@ function Profile() {
         <h4>성별</h4>
         <div>100% 모달</div>
       </div>
-    </div>
+    </>
   );
 }
 
-export default Profile;
+export { Profile };
