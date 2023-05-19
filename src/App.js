@@ -26,9 +26,7 @@ function App() {
             <Route
               exact
               path="/"
-              element={
-                <Login getUserLogin={getUserLogin} isLoggedIn={isLoggedIn} />
-              }
+              element={<Login getUserLogin={getUserLogin} />}
             />
             <Route path="/signupimage" element={<SignupImage />} />
             <Route path="/signup" element={<Signup />} />
