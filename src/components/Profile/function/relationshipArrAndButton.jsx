@@ -1,10 +1,10 @@
 import React from "react";
-import iphoneEmo1 from './array/RelationshipIcon/iphoneEmo-1.png';
-import iphoneEmo2 from './array/RelationshipIcon/iphoneEmo-2.png';
-import iphoneEmo3 from './array/RelationshipIcon/iphoneEmo-3.png';
-import iphoneEmo4 from './array/RelationshipIcon/iphoneEmo-4.png';
-import iphoneEmo5 from './array/RelationshipIcon/iphoneEmo-5.png';
-import iphoneEmo6 from './array/RelationshipIcon/iphoneEmo-6.png';
+import iphoneEmo1 from '../array/RelationshipIcon/iphoneEmo-1.png';
+import iphoneEmo2 from '../array/RelationshipIcon/iphoneEmo-2.png';
+import iphoneEmo3 from '../array/RelationshipIcon/iphoneEmo-3.png';
+import iphoneEmo4 from '../array/RelationshipIcon/iphoneEmo-4.png';
+import iphoneEmo5 from '../array/RelationshipIcon/iphoneEmo-5.png';
+import iphoneEmo6 from '../array/RelationshipIcon/iphoneEmo-6.png';
 
 const relationshipArr = [
   [iphoneEmo1, '진지한 연애'],
