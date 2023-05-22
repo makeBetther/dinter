@@ -1,0 +1,9 @@
+.userImage {
+    height: 200px;
+    width: auto;
+}
+
+.userDetails {
+    display: inline-block;
+    margin-right: 10px;
+}

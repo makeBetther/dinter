@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+:root {
+  --vh: 100%;
+}
+
+.App {
+  text-align: left;
+  margin-left: 30px;
+
+  height: calc(var(--vh, 1vh) * 100);
+}
